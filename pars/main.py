@@ -91,10 +91,8 @@ async def get_data(soup, tree):
 
 
 def main():
-    # scrape_page()
-    bot.infinity_polling()
+    scrape_page()
 
 
 if __name__ == "__main__":
-    # schedule.every(1).hour.do(main)
-    main()
+    schedule.every(1).hour.do(main)

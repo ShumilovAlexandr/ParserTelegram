@@ -139,4 +139,4 @@ def get_values(diff, theme):
     return row
 
 
-# bot.infinity_polling()
+bot.infinity_polling()
